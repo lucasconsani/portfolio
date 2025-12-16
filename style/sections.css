@@ -4,6 +4,7 @@
     grid-area: intro;
     text-align: center;
     background: no-repeat top center/cover var(--bg-intro);
+    height: 750px;
 }
 
 #info img {
