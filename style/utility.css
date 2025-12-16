@@ -1,0 +1,8 @@
+.subtitle {
+    font: var(--subtitle);
+    color: var(--gray-200);
+
+    span {
+        color: var(--red);
+    }
+}

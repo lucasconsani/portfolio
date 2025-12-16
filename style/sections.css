@@ -1,0 +1,12 @@
+
+
+#intro {
+    grid-area: intro;
+    text-align: center;
+    background: no-repeat top center/cover var(--bg-intro);
+}
+
+#info img {
+    width: 112px;
+    margin: auto;
+}
