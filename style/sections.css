@@ -1,7 +1,21 @@
 #intro {
-    grid-area: intro;
     text-align: center;
     background: no-repeat top center/cover var(--bg-intro);
-    height: 750px;
+    width: 100%;
     place-content: center;
+    padding: 120px 163px 0 163px;
+}
+#projects {
+    position: relative;
+    background: no-repeat top center/cover var(--gray-500);
+    width: 100%;
+    padding: 72px 120px 144px 120px;
+
+    .subtitle, .title {
+        text-align: center;
+    }
+
+    img {
+        width: 306px;
+    }
 }
