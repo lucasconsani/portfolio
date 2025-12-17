@@ -41,7 +41,24 @@
   gap: 24px;
 }
 
-.card {
+#projects .card {
+  width: 330px;
+  border-radius: 12px;
+  background-color: var(--gray-400);
+  padding: 12px;
+
+  img {
+    border-radius: 8px;
+  }
+  header {
+    padding: 17px 0 8px;
+  }
+  p {
+    padding-bottom: 17px;
+  }
+}
+
+#services .card {
   width: 330px;
   border-radius: 12px;
   background-color: var(--gray-400);
