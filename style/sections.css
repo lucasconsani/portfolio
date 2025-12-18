@@ -10,13 +10,13 @@
   width: 100%;
   padding: 72px 120px 144px 120px;
 
-  .subtitle,
-  .title {
-    text-align: center;
-  }
-
   img {
     width: 306px;
+  }
+
+  a:hover {
+    border: 1px solid var(--gray-300);
+    border-radius: 12px;
   }
 }
 
@@ -26,12 +26,25 @@
   height: 480px;
   padding: 88px 120px 120px 120px;
 
-  .subtitle,
-  .title {
-    text-align: center;
-  }
-
   img {
     width: 280px;
+  }
+}
+
+#contacts {
+  header {
+    text-align: center;
+  }
+  
+  background: no-repeat top center/cover var(--bg-contacts);
+  width: 100%;
+  place-content: center;
+  padding: 128px 120px 200px 120px;
+
+  h2 {
+    padding-block: 8px;
+  }
+  a {
+    text-decoration: none;
   }
 }

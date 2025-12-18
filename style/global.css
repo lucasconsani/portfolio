@@ -31,6 +31,7 @@
   --text-sm: 400 14px/140% var(--font-family-maven);
 
   --bg-intro: url(/assets/Background_Intro.png);
+  --bg-contacts: url(/assets/Background_Contacts.png);
   --bg-project: url(--gray-400);
 }
 
