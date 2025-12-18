@@ -1,4 +1,4 @@
-@import url(global.css);
-@import url(sections.css);
-@import url(utility.css);
-@import url(header.css);
+@import url(/style/global.css);
+@import url(/style/sections.css);
+@import url(/style/utility.css);
+@import url(/style/header.css);
